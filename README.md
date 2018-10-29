@@ -24,3 +24,12 @@ Christopher Buecheler is a web developer who runs [CloseBrace](https://closebrac
 * README.md - this file
 * app.js - central app file for tutorial project
 * package.json - package info for tutorial project
+
+
+## Docker Implementation
+
+I went further beyond Chris' initial project to a docker implementation for how to get the node-app containerized. The necessary files are the:
+
+* .dockerignore - just like a `.gitgnore` file but docker related
+* .docker-compose.yml - this is for composing and running the app using the `Dockerfile`
+* Dockerfile - the docker configurations for the app
