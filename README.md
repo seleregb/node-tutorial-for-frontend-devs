@@ -28,7 +28,7 @@ Christopher Buecheler is a web developer who runs [CloseBrace](https://closebrac
 
 ## Docker Implementation
 
-I went further beyond Chris' initial project to a docker implementation for how to get the node-app containerized. The necessary files are the:
+I went further beyond Chris' initial project to create a docker implementation for how to get the node-app containerized. The necessary files are the:
 
 * .dockerignore - just like a `.gitgnore` file but docker related
 * .docker-compose.yml - this is for composing and running the app using the `Dockerfile`
